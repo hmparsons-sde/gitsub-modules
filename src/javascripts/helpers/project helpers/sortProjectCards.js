@@ -1,3 +1,6 @@
+import createCards from '../globalFunctions.js';
+import projectCards from '../../components/projects/projectCards.js';
+
 //Gabby stretch goal - sort cards 
 const sortProjectCards = (e) => {
   if (e.target.id === 'sort-btn') {

@@ -1,3 +1,5 @@
+import projectsFormInfo from '../../helpers/project helpers/projectsFormInfo.js';
+
 const projectsForm = () => {
   let formString = `<form>
   <div class="mb-3">

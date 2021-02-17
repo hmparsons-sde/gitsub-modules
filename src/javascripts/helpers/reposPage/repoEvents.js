@@ -1,3 +1,5 @@
+import repoFormSubmit from '../../components/reposPage/repoFormSubmit.js';
+
 const repoEvents = () => {
   document
     .querySelector("#repoForm")

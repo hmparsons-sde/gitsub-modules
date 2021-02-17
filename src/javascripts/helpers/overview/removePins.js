@@ -1,3 +1,5 @@
+import createCards from '../globalFunctions.js';
+
 //loop through pin array for each- add EL that takes item.id on click
 const removePin = (e) => {
   const targetType = e.target.type;

@@ -1,3 +1,5 @@
+import createCards from '../globalFunctions.js';
+
 // Submit Org Form
 const submitOrgForm = (e) => {
   // Prevent page refresh from form submission

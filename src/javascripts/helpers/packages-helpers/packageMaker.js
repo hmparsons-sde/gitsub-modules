@@ -1,3 +1,6 @@
+import createCards from '../globalFunctions.js';
+import packageCardString from '../../components/packages/packageCardString.js';
+
 // Creates new packages after package form is submitted
 const packageMaker = (e) => {
   e.preventDefault();

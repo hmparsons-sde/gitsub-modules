@@ -1,3 +1,5 @@
+import favRepoString from '../reposPage/favRepoString.js';
+
 // create cards
 const orgCard = (item, i) => {
   let printFavs = favRepoString(item.topFive);
