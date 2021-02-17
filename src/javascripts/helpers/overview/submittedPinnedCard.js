@@ -1,3 +1,5 @@
+import createCards from '../globalFunctions.js';
+
 //Holly - this will take in the form info + push to pins array; then will reset form
 const submitPinnedCard = (e) => {
   e.preventDefault();

@@ -1,3 +1,6 @@
+import createCards from '../globalFunctions.js';
+import packageCardString from '../../components/packages/packageCardString.js';
+
 // Deletes package when delete button is clicked
 const deletePackage = (e) => {
   let targetId = e.target.id;
